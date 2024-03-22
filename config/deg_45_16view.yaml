@@ -1,0 +1,20 @@
+
+
+model:
+  the_ref_view: 8
+  device: cuda:0
+  proportion: 0.2
+  use_optional_fixed_views: 0.2
+
+systems:
+  seed: 20231027
+
+data_type: "render_45"
+
+
+##
+data_dir: data/16_views
+prompts_list: prompts_list/test_0.json
+key: prompts
+expname: test
+index_range: 0

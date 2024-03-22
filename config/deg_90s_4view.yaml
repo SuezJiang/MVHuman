@@ -1,0 +1,27 @@
+
+
+model:
+  device: cuda:0
+  the_ref_view: 0
+  constant_C: 1.
+  constant_S: 0.0
+  deg_thres: 90
+  # original_noise_freq: 5
+  proportion: 0.
+  close_original_noise: True
+
+  use_optional_fixed_views: 0.2
+
+  open_optimization: True
+
+systems:
+  seed: 20231020
+
+data_type: "render_90s"
+
+##
+data_dir: data/4_views
+prompts_list: prompts_list/test_1.json
+key: prompts
+expname: test
+index_range: 0
